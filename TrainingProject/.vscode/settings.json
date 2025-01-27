@@ -1,0 +1,27 @@
+{
+    "al.backgroundCodeAnalysis": true,
+    "al.codeAnalyzers": [
+        "${CodeCop}",
+    ],
+    "al.enableCodeAnalysis": true,
+    "al.packageCachePath": "./.alpackages",
+    "al.ruleSetPath": "./.codeAnalysis/ruleset.json",
+    "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "alOutline.codeCleanupActions": [
+        "RemoveWithStatements",
+        "RemoveUnusedVariables",
+        "RemoveBeginEnd",
+        "RemoveEmptySections",
+        "RemoveEmptyLines",
+        "AddMissingParentheses",
+        "SortProperties",
+        "SortVariables",
+        "FixKeywordsCase",
+        "FixIdentifiersCase",
+        "ConvertObjectIdsToNames"
+    ],
+    // TODO Create an Application area field in the foundation layer and set the value here.
+    "alOutline.defaultAppArea": "<Application Area>"
+}

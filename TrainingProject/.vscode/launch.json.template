@@ -1,0 +1,24 @@
+// This file is a template for the launch.json file that is used to configure the publishing and debugging of AL Extension in Visual Studio Code.
+// The file should be copied to the .vscode folder in the root of the project and renamed to launch.json.
+{
+    "configurations": [
+        {
+            // TODO Set the name of the Server that will publish the extension.
+            "name": "",
+            "type": "al",
+            "request": "launch",
+            // TODO Set the dependencyPublishingOption as per the needs.
+            "dependencyPublishingOption": "Default"
+            /*
+            Default: Will recompile all direct dependencies of the changed app.
+                     Dependency publishing will be applied.
+            
+            Igore: Will only recompile the changed app. 
+                   Dependency publishing is ignored so that only leaf projects are published.
+
+            Strict: Requires all dependent apps to be in the workspace (dep.app file).
+                    Dependency publishing will fail if there are any apps that directly depend on the startup project and these apps are not part of the workspace.
+            */
+        }
+    ]
+}

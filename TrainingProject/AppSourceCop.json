@@ -1,0 +1,6 @@
+{
+    "baselinePackageCachePath": "./.alpackages",
+    "mandatoryAffixes": [
+        "TG"
+    ]    
+}

@@ -1,0 +1,36 @@
+{
+    "id": "01b975e6-60a1-42a0-a496-5d9429dd80d0",
+    "name": "LMC",
+    "publisher": "Ciellos",
+    "brief": "Extension for optimized logistics operations in Business Central.",
+    "description": "This extension enhances Microsoft Dynamics 365 Business Central by providing tools for efficient logistics management. It includes features such as real-time inventory tracking, automated shipment processing, and streamlined warehouse management. Ideal for businesses seeking to improve operational efficiency and reduce logistics errors.",
+    "version": "1.0.0.0",
+    "privacyStatement": "",
+    "EULA": "",
+    "help": "",
+    "url": "https://www.ciellos.com",
+    "logo": "./Images/Ciellos.png",
+    "application": "25.0.0.0",
+    "dependencies": [
+    ],
+    "screenshots": [],
+    "platform": "25.0.0.0",
+    "idRanges": [
+        {
+            "from": 60601,
+            "to": 60700
+        }
+    ],
+    "runtime": "14.0",
+    "features": [
+        "TranslationFile",
+        "NoImplicitWith",
+        "NoPromotedActionProperties"
+    ],
+    "target": "Cloud",
+    "resourceExposurePolicy": {
+        "allowDebugging": false,
+        "allowDownloadingSource": false,
+        "includeSourceInSymbolFile": false
+    }
+}

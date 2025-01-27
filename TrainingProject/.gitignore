@@ -1,0 +1,9 @@
+*.app
+launch.json
+rad.json
+*.g.xlf
+/.al*/
+/.app*/
+/.snapshots/
+permissionsAnalyzer.json
+/.vscode/.alcache/*
